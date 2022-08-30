@@ -33,6 +33,7 @@ strerr	= 2
 handywork 2> err.msgs
 
 Example of all three:
+
 handywork < data.in > results.out 2> err.msgs
 
 stderr (2) 
