@@ -33,10 +33,13 @@ strerr	= 2
 handywork 2> err.msgs
 
 Example of all three:
+
 handywork < data.in > results.out 2> err.msgs
 
+handywork < data.in > results.out 2> &1
+
 stderr (2) 
-file location or filename (&1)
+file descriptor (&1)
 
 handywork < data.in &> results.out
 

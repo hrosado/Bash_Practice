@@ -36,8 +36,11 @@ Example of all three:
 
 handywork < data.in > results.out 2> err.msgs
 
+handywork < data.in > results.out 2> &1
+
 stderr (2) 
-file location or filename (&1)
+file descriptor (&1) 
+- without the [&] the output would be sent to a file named '1'.
 
 handywork < data.in &> results.out
 
