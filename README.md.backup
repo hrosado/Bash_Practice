@@ -48,7 +48,9 @@ handywork < data.in &> results.out
 
 Redirect to a special file and discard standard output:
 
-- handywork < data.in > 
+- handywork < data.in > /dev/null
+
+
 
 
 

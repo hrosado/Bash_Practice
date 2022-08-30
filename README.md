@@ -42,9 +42,10 @@ Example of all three:
 
 stderr (2) 
 file descriptor (&1) 
-- without the [&] the output would be sent to a file named '1'.
 
-handywork < data.in &> results.out
+without the [&] the output would be sent to a file named '1'.
+
+- handywork < data.in &> results.out
 
 Redirect to a special file and discard standard output:
 
