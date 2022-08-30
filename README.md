@@ -17,6 +17,8 @@ Use the _script_ command to record actions.
 The *compgen* command provides a list of *commands*, *builtins*, and *keywords*.
 
 \$ compgen -c [list commands]
+
 \$ compgen -b [list buitins]
+
 \$ compgen -k [list keywords]
 
