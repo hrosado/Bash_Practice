@@ -46,5 +46,11 @@ file descriptor (&1)
 
 handywork < data.in &> results.out
 
+Redirect to a special file and discard standard output:
+
+- handywork < data.in > /dev/null
+
+
+
 
 
