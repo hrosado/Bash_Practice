@@ -22,3 +22,23 @@ The *compgen* command provides a list of *commands*, *builtins*, and *keywords*.
 
 \$ compgen -k [list keywords]
 
+
+Example of *redirection* and *piping*:
+handywork < data.in > results.out
+
+stdin 	= 0
+stdout 	= 1
+strerr	= 2
+
+handywork 2> err.msgs
+
+Example of all three:
+handywork < data.in > results.out 2> err.msgs
+
+stderr (2) 
+file location or filename (&1)
+
+handywork < data.in &> results.out
+
+
+
