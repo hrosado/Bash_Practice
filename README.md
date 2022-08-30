@@ -52,6 +52,13 @@ Redirect to a special file and discard standard output:
 - handywork < data.in > /dev/null
 
 
+*jobs* command lists any tasks currently running in the background.
+
+$ jobs
+
+
+
+
 
 
 
